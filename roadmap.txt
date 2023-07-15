@@ -1,0 +1,14 @@
+Code cleanup (maintainable)
+Core ability Improvements
+Better calculation of the costs to generate
+Improved parameter flexibility
+Better code factorization
+Better interaction with the tool
+Improved error handling
+Unit testing support
+Multi Files (medium and large projects)
+Graphical user interface (GUI)
+Integration with Integrated Development Environments (IDE)
+Graphical user interface (GUI)
+
+*many other improvements and implementations will be applied, this list is not exhaustive.
