@@ -8,10 +8,11 @@ PythonForgeAI is capable of handling several aspects of the Python code developm
 
 This tool is designed to be a flexible and adaptable tool, with a variety of settings that you can adjust to meet your specific needs.
 
-**Warning** This is only a first version, improvements and implementations are planned and under development.
+**Warning** This is only a first version, improvements and implementations are planned and under development. 'roadmap.txt'
+            
 
 ## How it works
-PythonForgeAI uses a very direct approach, it works in several steps:
+PythonForgeAI uses a simple and very direct approach, it works in several steps:
 1. **Prompt**: The user provides a prompt describing the problem to be solved.
 2. **Tasks generation**: It generates a list of tasks to be carried out to accomplish the project.
 3. **Code generation**: PythonForgeAI uses OpenAI's GPT-4 language model to generate code in response to the prompt.
@@ -29,9 +30,11 @@ To use PythonForgeAI, you must first install the necessary dependencies. Then yo
 **In the PythonForgeAI.ini file**:
 1. insert your OpenAI API key
 2. choose the language 'english' or 'french' (for now)
-3. insert your prompt with minimal details (on one line)
+3. insert your prompt as detailed as possible (on one line)
 
 python PythonForgeAI.py
+
+**Warning** if you ask PythonForgeAI to generate code with a particular library, check that you have previously installed the module.
 
 ## Licence
 PythonForgeAI is licensed under GPL-3.0. This means that you are free to copy, modify and distribute the code, as long as you keep the same license for modified versions and acknowledge the original authors.
