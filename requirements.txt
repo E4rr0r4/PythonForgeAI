@@ -1,0 +1,12 @@
+openai
+openai.error
+os
+subprocess
+re
+unidecode
+configparser
+codecs
+threading
+itertools
+time
+sys
