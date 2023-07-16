@@ -155,13 +155,10 @@ def debug_gencode(code, nocode):
     if (code == "" and nocode == ""):
         print("ERROR_4: code fetch variables are empty.")
         exit(0)
-
     elif (code != "" and nocode == "" and code.find("GPT-PythonForgeAI") > -1):
         return code
-
     elif (code == "" and nocode != "" and nocode.find("GPT-PythonForgeAI") > -1):
         return nocode
-
     elif (code != "" and nocode != ""):
         return code
 
