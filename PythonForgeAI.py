@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#Original code by ViraX (E4rr0r4) - licensed under GPL-3.0
+#Original code by ViraX (E4rr0r4) - GNU General Public License v3.0
 
 import openai
 import openai.error
