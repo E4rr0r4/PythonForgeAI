@@ -37,7 +37,7 @@ python PythonForgeAI.py
 **Warning** if you ask PythonForgeAI to generate code with a particular library, check that you have previously installed the module.
 
 ## Licence
-PythonForgeAI is licensed under GPL-3.0. This means that you are free to copy, modify and distribute the code, as long as you keep the same license for modified versions and acknowledge the original authors.
+PythonForgeAI is licensed under GNU General Public License v3.0. This means that you are free to copy, modify and distribute the code, as long as you keep the same license for modified versions and acknowledge the original authors.
 
 ## Contact
 If you have any questions or comments about PythonForgeAI, please don't hesitate to contact me.  viraxe4rr0r4@gmail.com
