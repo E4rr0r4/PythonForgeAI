@@ -34,7 +34,7 @@ def PFAI_screen():
     print(" --- Forge Python code solutions from problem descriptions with the power of AI. --- ")
     print("\n")
     print("- Original code by ViraX (E4rr0r4) @ 2023 -")
-    print("* PythonForgeAI is licensed under GPL-3.0")
+    print("* PythonForgeAI - GNU General Public License v3.0")
     print("# Version: '" + PythonForgeAI_version + "'")
     print("\n")
 
