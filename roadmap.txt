@@ -7,7 +7,6 @@ Better interaction with the tool
 Improved error handling
 Unit testing support
 Multi Files (medium and large projects)
-Graphical user interface (GUI)
 Integration with Integrated Development Environments (IDE)
 Graphical user interface (GUI)
 
