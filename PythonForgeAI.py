@@ -478,7 +478,7 @@ def start_PythonForgeAI(instruction_gpt4, prompt, g_filename, user_language, tim
 
 
 ##
-# Get configuration values
+# INI
 model_gpt = config.get('PythonForgeAI', 'model_gpt').replace("'", "")
 user_language = config.get('PythonForgeAI', 'user_language').replace('"', "").lower()
 prompt = config.get('PythonForgeAI', 'prompt').replace('"', "")
@@ -488,7 +488,6 @@ iteration_gpt = config.get('PythonForgeAI', 'iteration_gpt')
 isys = config.get('PythonForgeAI', 'isys').replace("'", "")
 valid_code = config.get('PythonForgeAI', 'valid_code').replace("'", "")
 
-# Validate configuration values
 if model_gpt not in ["gpt-4", "gpt-4-32k"]:
     print("ERROR_INI_1: the GPT model is not correct.")
     exit(0)
@@ -526,10 +525,9 @@ if valid_code not in ['True', 'False']:
     exit(0)
 valid_code = valid_code == 'True'
 
-# User instructions
+
 instructions_utilisateur = {f'instruction_utilisateur_{i}': config.get('PythonForgeAI', f'instruction{i}').replace('"', "") for i in range(1, 16)}
 
-# System instructions
 instructions_system = {
     "french": {
         "instruction_sys0": "[INSTRUCTION SYSTEM 0] Toutes les phrases écrites en français dans le code généré doivent être sans accents. Par exemple, le caractère 'é' doit être écrit 'e'. Il est crucial de respecter strictement cette instruction afin d'éviter les erreurs d'encodage.",
@@ -555,7 +553,7 @@ instructions_system = {
     }
 }
 
-# Generate instructions based on user language
+
 if user_language == "french":
     g_filename = "génère un nom de fichier pour le script Python 3 que tu vas générer, il doit etre en accord avec l'utilité du script, voici la description du script : '"+prompt+"' tu répond uniquement par le nom du fichier, rien d'autres."
     if isys:
