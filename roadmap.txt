@@ -3,6 +3,7 @@ Core ability Improvements
 Better calculation of the costs to generate
 Improved parameter flexibility
 Better code factorization
+Receiving a code and interacting with it
 Better interaction with the tool
 Improved error handling
 Unit testing support
